@@ -1,0 +1,32 @@
+"MainCoordinator_tabitem_home" = "Home";
+"MainCoordinator_tabitem_settings" = "Settings";
+
+"HomeViewController_fab_create" = "NEW POST";
+"HomeViewController_fab_edit" = "EDIT";
+
+"SettingsViewController_labelToggleTheme" = "Dark Theme";
+"SettingsViewController_labelFeatureTop" = "New Features";
+"SettingsViewController_labelFeatureBottom" = "New Features";
+
+"DetailViewController_button_close" = "Close";
+"DetailViewController_button_delete" = "Delete";
+"DetailViewController_button_edit" = "Edit";
+"DetailViewController_message_tap" = "Double tap for editing";
+"DetailViewController_message_delete" = "Want to delete this memo?";
+"DetailViewController_button_ok" = "OK";
+"DetailViewController_button_cancel" = "CANCEL";
+
+"EditViewController_button_cancel" = "Cancel";
+"EditViewController_button_save" = "Save";
+"EditViewController_placeholder_title" = "Title";
+"EditViewController_placeholder_content" = "content";
+
+"CreateViewController_button_cancel" = "Cancel";
+"CreateViewController_button_save" = "Save";
+"CreateViewController_placeholder_title" = "Title";
+"CreateViewController_placeholder_content" = "content";
+
+"ReorderViewController_button_cancel" = "Cancel";
+"ReorderViewController_button_save" = "Save";
+
+

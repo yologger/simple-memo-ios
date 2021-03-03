@@ -1,0 +1,30 @@
+"MainCoordinator_tabitem_home" = "홈";
+"MainCoordinator_tabitem_settings" = "설정";
+
+"HomeViewController_fab_create" = "글쓰기";
+"HomeViewController_fab_edit" = "정렬";
+
+"SettingsViewController_labelToggleTheme" = "다크 테마";
+"SettingsViewController_labelFeatureTop" = "새로운 기능이";
+"SettingsViewController_labelFeatureBottom" = "곧 출시됩니다";
+
+"DetailViewController_button_close" = "닫기";
+"DetailViewController_button_delete" = "삭제";
+"DetailViewController_button_edit" = "수정";
+"DetailViewController_message_tap" = "편집을 하려면 두 번 탭 해주세요";
+"DetailViewController_message_delete" = "이 메모를 삭제하시겠어요?";
+"DetailViewController_button_ok" = "네";
+"DetailViewController_button_cancel" = "아니오";
+
+"EditViewController_button_cancel" = "취소";
+"EditViewController_button_save" = "저장";
+"EditViewController_placeholder_title" = "제목";
+"EditViewController_placeholder_content" = "내용";
+
+"CreateViewController_button_cancel" = "취소";
+"CreateViewController_button_save" = "저장";
+"CreateViewController_placeholder_title" = "제목";
+"CreateViewController_placeholder_content" = "내용";
+
+"ReorderViewController_button_cancel" = "취소";
+"ReorderViewController_button_save" = "저장";
