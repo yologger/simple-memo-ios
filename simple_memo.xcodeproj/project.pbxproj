@@ -24,7 +24,6 @@
 		9A5EFE7D25EF99AE00905BC1 /* Reorder.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A5EFE7C25EF99AE00905BC1 /* Reorder.storyboard */; };
 		9A5EFE8225EF9F7700905BC1 /* CreateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5EFE8125EF9F7700905BC1 /* CreateViewModel.swift */; };
 		9A5EFE8725EFA09C00905BC1 /* CreateVMEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5EFE8625EFA09C00905BC1 /* CreateVMEvent.swift */; };
-		9A5EFE8F25EFA0E300905BC1 /* simple_memo.db in Resources */ = {isa = PBXBuildFile; fileRef = 9A5EFE8E25EFA0E300905BC1 /* simple_memo.db */; };
 		9A5EFE9725EFA60F00905BC1 /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5EFE9625EFA60F00905BC1 /* MemoCell.swift */; };
 		9A5EFE9C25EFA61C00905BC1 /* MemoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A5EFE9B25EFA61C00905BC1 /* MemoCell.xib */; };
 		9A5EFEA125EFAA6B00905BC1 /* ReorderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5EFEA025EFAA6B00905BC1 /* ReorderViewModel.swift */; };
@@ -52,6 +51,8 @@
 		9AF09A1825EE8B48003E1FE5 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF09A1725EE8B48003E1FE5 /* Settings.storyboard */; };
 		9AF09A2525EE9155003E1FE5 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF09A2425EE9155003E1FE5 /* HomeCoordinator.swift */; };
 		9AF09A2A25EE917A003E1FE5 /* SettingsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF09A2925EE917A003E1FE5 /* SettingsCoordinator.swift */; };
+		9AF458D225F0E605004A114C /* db.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 9AF458D125F0E605004A114C /* db.sqlite */; };
+		9AF458FE25F0EE35004A114C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AF4590025F0EE35004A114C /* InfoPlist.strings */; };
 		9AFA31BC25EF7D8700821683 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFA31BB25EF7D8700821683 /* BaseViewController.swift */; };
 		9AFA31C125EF7D9800821683 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFA31C025EF7D9800821683 /* BaseViewModel.swift */; };
 		9AFA31C725EF7E3700821683 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFA31C625EF7E3700821683 /* AppColor.swift */; };
@@ -110,7 +111,6 @@
 		9A5EFE7C25EF99AE00905BC1 /* Reorder.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Reorder.storyboard; sourceTree = "<group>"; };
 		9A5EFE8125EF9F7700905BC1 /* CreateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewModel.swift; sourceTree = "<group>"; };
 		9A5EFE8625EFA09C00905BC1 /* CreateVMEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateVMEvent.swift; sourceTree = "<group>"; };
-		9A5EFE8E25EFA0E300905BC1 /* simple_memo.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = simple_memo.db; sourceTree = "<group>"; };
 		9A5EFE9625EFA60F00905BC1 /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
 		9A5EFE9B25EFA61C00905BC1 /* MemoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemoCell.xib; sourceTree = "<group>"; };
 		9A5EFEA025EFAA6B00905BC1 /* ReorderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReorderViewModel.swift; sourceTree = "<group>"; };
@@ -145,6 +145,9 @@
 		9AF09A1725EE8B48003E1FE5 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 		9AF09A2425EE9155003E1FE5 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		9AF09A2925EE917A003E1FE5 /* SettingsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCoordinator.swift; sourceTree = "<group>"; };
+		9AF458D125F0E605004A114C /* db.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = db.sqlite; sourceTree = "<group>"; };
+		9AF458FF25F0EE35004A114C /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9AF4590425F0EE38004A114C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9AFA31BB25EF7D8700821683 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		9AFA31C025EF7D9800821683 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		9AFA31C625EF7E3700821683 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
@@ -348,12 +351,13 @@
 			children = (
 				9AF0998925EE7673003E1FE5 /* Info.plist */,
 				9A0FCF3525EF59F6006CBC2B /* Assets.xcassets */,
-				9A5EFE8E25EFA0E300905BC1 /* simple_memo.db */,
 				9AF0997B25EE7672003E1FE5 /* AppDelegate.swift */,
 				9AFA31DD25EF7E9300821683 /* Constant.swift */,
 				9AF0998625EE7673003E1FE5 /* LaunchScreen.storyboard */,
+				9AF458D125F0E605004A114C /* db.sqlite */,
 				9AFA31C525EF7E2300821683 /* Theme */,
 				9A5EFF1E25EFFE1700905BC1 /* Localizable.strings */,
+				9AF4590025F0EE35004A114C /* InfoPlist.strings */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -649,13 +653,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A0B402125EE93EA000304A1 /* Create.storyboard in Resources */,
+				9AF458D225F0E605004A114C /* db.sqlite in Resources */,
 				9A5EFF1C25EFFE1700905BC1 /* Localizable.strings in Resources */,
+				9AF458FE25F0EE35004A114C /* InfoPlist.strings in Resources */,
 				9AF0998825EE7673003E1FE5 /* LaunchScreen.storyboard in Resources */,
 				9A5EFE9C25EFA61C00905BC1 /* MemoCell.xib in Resources */,
 				9A5EFEBB25EFAE7E00905BC1 /* Detail.storyboard in Resources */,
 				9A5EFE7D25EF99AE00905BC1 /* Reorder.storyboard in Resources */,
 				9AF0998325EE7672003E1FE5 /* Home.storyboard in Resources */,
-				9A5EFE8F25EFA0E300905BC1 /* simple_memo.db in Resources */,
 				9A0B404325EF3EF5000304A1 /* LogIn.storyboard in Resources */,
 				9A0FCF3625EF59F6006CBC2B /* Assets.xcassets in Resources */,
 				9A5EFECF25EFB54300905BC1 /* Edit.storyboard in Resources */,
@@ -909,6 +914,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		9AF4590025F0EE35004A114C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AF458FF25F0EE35004A114C /* ko */,
+				9AF4590425F0EE38004A114C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -968,6 +982,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "hello world";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1023,6 +1038,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "hello world";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -1036,14 +1052,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 85W4W86L34;
 				INFOPLIST_FILE = simple_memo/Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yologger.simple-memo";
+				MARKETING_VERSION = 1.01;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yologger.simple-memo-for-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = simple_memo_distribution;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1055,14 +1076,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 85W4W86L34;
 				INFOPLIST_FILE = simple_memo/Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yologger.simple-memo";
+				MARKETING_VERSION = 1.01;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yologger.simple-memo-for-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = simple_memo_distribution;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1075,6 +1101,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = simple_memoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1097,6 +1124,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = simple_memoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (

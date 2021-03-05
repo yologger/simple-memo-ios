@@ -6,11 +6,14 @@ class MemoDaoImpl {
     
     lazy var fmdb: FMDatabase! = {
         let fileMgr = FileManager.default
+        // Document Directory
         let dirPaths = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
         let docPath = dirPaths[0] as String
-        let dbPath = docPath.appending("simple_memo.db")
+        let dbPath = docPath.appending("db.sqlite")
+        // Check whether 'db.sqlite' exists in Document Directory
         if !fileMgr.fileExists(atPath: dbPath) {
-            let dbSource = Bundle.main.path(forResource: "simple_memo", ofType: "db")
+            // If not exist, copy from App Bundle to Document Directory
+            let dbSource = Bundle.main.path(forResource: "db", ofType: "sqlite")
             try! fileMgr.copyItem(atPath: dbSource!, toPath: dbPath)
         }
         let db = FMDatabase(path: dbPath)
@@ -141,7 +144,7 @@ extension MemoDaoImpl: MemoDao {
             return Disposables.create()
         }
     }
- 
+    
     func updateMemo(id: Int, title: String, content: String) -> Completable {
         return Completable.create { [weak self] emitter in
             do {

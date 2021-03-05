@@ -24,7 +24,7 @@ class HomeViewModel: BaseViewModel {
                 self?._memos = memos
                 print(memos)
             } onFailure: { (error) in
-                
+                print("error")
             } onDisposed: {
                 
             }.disposed(by: disposeBag)

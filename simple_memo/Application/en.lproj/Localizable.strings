@@ -6,7 +6,7 @@
 
 "SettingsViewController_labelToggleTheme" = "Dark Theme";
 "SettingsViewController_labelFeatureTop" = "New Features";
-"SettingsViewController_labelFeatureBottom" = "New Features";
+"SettingsViewController_labelFeatureBottom" = "Coming Soon";
 
 "DetailViewController_button_close" = "Close";
 "DetailViewController_button_delete" = "Delete";
