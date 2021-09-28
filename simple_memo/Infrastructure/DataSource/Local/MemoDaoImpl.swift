@@ -5,11 +5,14 @@ import RxCocoa
 class MemoDaoImpl {
     
     lazy var fmdb: FMDatabase! = {
+        
         let fileMgr = FileManager.default
+        
         // Document Directory
         let dirPaths = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
         let docPath = dirPaths[0] as String
-        let dbPath = docPath.appending("db.sqlite")
+        let dbPath = docPath.appending("/db.sqlite")
+        
         // Check whether 'db.sqlite' exists in Document Directory
         if !fileMgr.fileExists(atPath: dbPath) {
             // If not exist, copy from App Bundle to Document Directory

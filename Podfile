@@ -1,10 +1,9 @@
-# Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
 
 target 'simple_memo' do
-  # Comment the next line if you don't want to use dynamic frameworks
+  
   use_frameworks!
-
   # Pods for simple_memo
   pod 'Alamofire', '~> 5.2'
   pod 'Swinject', '2.7.0'
@@ -17,16 +16,17 @@ target 'simple_memo' do
   pod 'FMDB'
   pod 'Toast-Swift', '~> 5.0.1'
   pod 'UITextView+Placeholder'
-
+  
   target 'simple_memoTests' do
     inherit! :search_paths
     # Pods for testing
     pod 'RxBlocking', '6.1.0'
     pod 'RxTest', '6.1.0'
   end
-
+  
+  
   target 'simple_memoUITests' do
     # Pods for testing
   end
-
+  
 end

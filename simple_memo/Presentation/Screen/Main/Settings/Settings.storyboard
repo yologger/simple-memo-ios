@@ -41,30 +41,7 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UZd-cb-3pa">
                                 <rect key="frame" x="0.0" y="107" width="414" height="755"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="sek-CY-p7K">
-                                        <rect key="frame" x="151.5" y="347.5" width="111" height="60"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Features" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vO8-iK-pfm">
-                                                <rect key="frame" x="0.0" y="0.0" width="111" height="21.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coming Soon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KT7-Pg-HND">
-                                                <rect key="frame" x="0.0" y="38.5" width="111" height="21.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstItem="sek-CY-p7K" firstAttribute="centerX" secondItem="UZd-cb-3pa" secondAttribute="centerX" id="Cep-0y-XTl"/>
-                                    <constraint firstItem="sek-CY-p7K" firstAttribute="centerY" secondItem="UZd-cb-3pa" secondAttribute="centerY" id="uEb-5i-v7g"/>
-                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="EXf-wz-j0w"/>
@@ -80,8 +57,6 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="labelFeatureBottom" destination="KT7-Pg-HND" id="LNc-KR-JPK"/>
-                        <outlet property="labelFeatureTop" destination="vO8-iK-pfm" id="AN7-wQ-CFf"/>
                         <outlet property="labelToggleTheme" destination="8bN-Wk-Kp0" id="jU8-nT-diT"/>
                         <outlet property="switchToggleTheme" destination="kGe-Mr-inV" id="nQG-bD-iOm"/>
                         <outlet property="viewHeader" destination="fBL-ni-H9v" id="gqK-VC-8Fr"/>

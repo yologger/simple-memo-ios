@@ -71,6 +71,5 @@ class HomeViewController: BaseViewController, StoryboardInstantiable {
         let createViewController = CreateViewController.instantiate()
         createViewController.hidesBottomBarWhenPushed = true
         navigationController?.pushViewController(createViewController, animated: true)
-        
     }
 }

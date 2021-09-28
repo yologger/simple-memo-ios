@@ -7,8 +7,6 @@ class SettingsViewController: UIViewController, StoryboardInstantiable {
     @IBOutlet weak var labelToggleTheme: UILabel!
     @IBOutlet weak var switchToggleTheme: UISwitch!
     @IBOutlet weak var viewHeader: UIView!
-    @IBOutlet weak var labelFeatureTop: UILabel!
-    @IBOutlet weak var labelFeatureBottom: UILabel!
     
     override func viewDidLoad() {
         setupSwitchToggleTheme()
@@ -20,8 +18,6 @@ class SettingsViewController: UIViewController, StoryboardInstantiable {
     
     private func setupUI() {
         labelToggleTheme.text = NSLocalizedString("SettingsViewController_labelToggleTheme", comment: "")
-        labelFeatureTop.text = NSLocalizedString("SettingsViewController_labelFeatureTop", comment: "")
-        labelFeatureBottom.text = NSLocalizedString("SettingsViewController_labelFeatureBottom", comment: "")
     }
     
     private func setupSwitchToggleTheme() {

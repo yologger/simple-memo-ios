@@ -46,7 +46,7 @@ class EditViewController: BaseViewController, StoryboardInstantiable {
     private func setupBinding() {
         
         guard let vm = viewModel else { return }
-        guard let id = memoId else { return }
+        // guard let id = memoId else { return }
         
         buttonCancel.rx.tap.bind { [weak self] in
             self?.viewModel?.close()

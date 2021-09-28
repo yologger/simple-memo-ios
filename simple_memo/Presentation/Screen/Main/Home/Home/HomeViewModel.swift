@@ -22,9 +22,8 @@ class HomeViewModel: BaseViewModel {
             .subscribe { [weak self] (memos) in
                 self?.memos.onNext(memos)
                 self?._memos = memos
-                print(memos)
             } onFailure: { (error) in
-                print("error")
+    
             } onDisposed: {
                 
             }.disposed(by: disposeBag)

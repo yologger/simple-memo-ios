@@ -19,7 +19,6 @@ class ReorderViewModel: BaseViewModel {
             .observe(on: MainScheduler.instance)
             .subscribe { [weak self] (memos) in
                 self?.memos.onNext(memos)
-                print(memos)
             } onFailure: { (error) in
                 
             } onDisposed: {
@@ -32,7 +31,6 @@ class ReorderViewModel: BaseViewModel {
     }
     
     func save(memos: Array<Memo>, deletedMemos: Array<Memo>) {
-        print("SAVE")
         
         var newMemos = Array<Memo>()
         

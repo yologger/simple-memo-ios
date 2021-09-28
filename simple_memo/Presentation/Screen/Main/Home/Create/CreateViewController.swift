@@ -55,7 +55,7 @@ class CreateViewController: BaseViewController, StoryboardInstantiable {
         textViewContent.placeholderColor = AppColor.Grey.Default
         textFieldTitle.attributedPlaceholder = NSAttributedString(string: NSLocalizedString("CreateViewController_placeholder_title", comment: ""), attributes: [NSAttributedString.Key.foregroundColor : AppColor.Grey.Default])
         
-    
+        
     }
     
     @IBAction func save(_ sender: Any) {
